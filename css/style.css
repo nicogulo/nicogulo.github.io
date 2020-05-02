@@ -22,6 +22,8 @@ section {
 
 .portfolio {
 	background-color: #eee;
+	width: 300px;
+	height: 300;
 }
 
 .contact {
