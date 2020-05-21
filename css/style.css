@@ -27,6 +27,7 @@ section {
 }
 
 .contact {
+	display: none;
 	min-height: 800px;
 }
 
