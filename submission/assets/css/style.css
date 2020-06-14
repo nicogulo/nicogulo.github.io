@@ -1,7 +1,11 @@
  * {
    box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
  body{
+ 	scroll-behavior: smooth;
 	font: 16px/28px 'Poppins'; 
 	background-color: grey;
 	color: #333;

@@ -9,7 +9,9 @@
   border: none;
   margin-bottom: 0;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 @media (min-width:768px) {
   .navigation-clean {
     padding-top: 1rem;
