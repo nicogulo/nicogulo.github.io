@@ -13,15 +13,10 @@ html{
   scroll-behavior: smooth;
 }
 @media (min-width:768px) {
-<<<<<<< HEAD
-  html{
-    scroll-behavior: smooth;
-  }
-=======
+
 html{
 scroll-behavior: smooth;
 }
->>>>>>> 429fc76093cc761bc6dae2d29d951e4b9514adea
   .navigation-clean {
     padding-top: 1rem;
     padding-bottom: 1rem;
