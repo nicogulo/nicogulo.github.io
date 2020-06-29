@@ -13,9 +13,13 @@ html{
   scroll-behavior: smooth;
 }
 @media (min-width:768px) {
+  html{
+    scroll-behavior: smooth;
+  }
   .navigation-clean {
     padding-top: 1rem;
     padding-bottom: 1rem;
+
   }
 }
 
@@ -201,6 +205,9 @@ html{
   border-radius: 5px;
 }
 @media (max-width:767px) {
+  html{
+    scroll-behavior: smooth;
+  }
   .article-list h2 {
     margin-bottom: 25px;
     padding-top: 25px;
@@ -257,6 +264,10 @@ html{
   opacity: 1;
 }
 
+.form-group .cv a{
+  text-decoration: none;
+  color:whitesmoke;
+}
 /*team*/
 .team-clean {
   color: #313437;
@@ -375,6 +386,9 @@ html{
 }
 
 @media (max-width:767px) {
+  html{
+    scroll-behavior: smooth;
+  }
   .contact-clean form {
     padding: 30px;
   }

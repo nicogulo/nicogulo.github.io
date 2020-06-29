@@ -88,7 +88,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item active"><a class="rd-nav-link" href="index.php">Home</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">About Us</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="our-team.html">Our Team</a>
                     </li>
@@ -109,7 +109,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
                   Informatika</h2>
                 <div class="group-xl group-middle">
                   <div><a class="button button-md button-white button-shadow button-winona wow clipInLeft"
-                      href="about-us.html" data-wow-delay=".2s">Read more</a></div>
+                      href="about-us.php" data-wow-delay=".2s">Read more</a></div>
                   <div><a class="button button-md button-primary button-shadow button-winona wow clipInLeft"
                       href="contact-us.html" data-wow-delay=".2s">Contact us</a></div>
                 </div>
@@ -227,7 +227,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
                         <li>Business advisory experience</li>
                         <li>Reliable company management</li> -->
           <!-- akhir none -->
-          </ul><a class="button button-primary button-shadow button-winona font-weight-sbold" href="about-us.html">Read
+          </ul><a class="button button-primary button-shadow button-winona font-weight-sbold" href="about-us.php">Read
             more</a>
         </div>
         <div class="col-sm-10 col-md-6 wow fadeInLeftSmall">
@@ -279,6 +279,10 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
               <div class="thumbnail-classy-caption"><img class="img-custom" src="images/berita/<?php echo $row["gambar"]; ?>"
                   alt="" width="400" height="500" />
               </div>
+              <div class="thumbnail-classy-caption"><img class="img-custom" src="images/berita/<?php echo $row["1"]; ?>"
+                  alt="" width="400" height="500" />
+              </div>
+              
               <div class="thumbnail-classy">
                 <div class="thumbnail-classy-image bg-image" style="background-image: url(images/HIMAKA-LOGO.png); ">
                 </div>
@@ -318,7 +322,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
               dan
               komunikasi hubungan antara internal dan eksternal HIMAKA.</p>
             </ul><a class="button button-primary button-shadow button-winona font-weight-sbold"
-              href="about-us.html">Read
+              href="about-us.php">Read
               more</a>
           </div>
           <div class="col-sm-10 col-md-6 wow fadeInLeftSmall">
@@ -355,7 +359,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
                 </span></h3>
               <p class="big wow clipInLeft inset-3" data-wow-delay=".2s">Selama ini telah banyak Program Kerja dari
                 Kabinet Serasi yang telah berjalan .</p><a
-                class="button button-white button-winona wow clipInLeft font-weight-sbold" href="about-us.html"
+                class="button button-white button-winona wow clipInLeft font-weight-sbold" href="about-us.php"
                 data-wow-delay=".3s">View Gallery</a>
             </div>
           </div>
@@ -662,7 +666,7 @@ mysqli_query($conn,"SET CHARACTER SET utf8");
           <div class="col-sm-5 col-md-3 col-xl-2">
             <h4 class="footer-classic-title">Who We Are</h4>
             <ul class="list footer-classic-list">
-              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="about-us.php">About Us</a></li>
               <li><a href="our-team.html">Our Team</a></li>
             </ul>
           </div>
