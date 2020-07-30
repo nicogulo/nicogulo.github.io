@@ -254,12 +254,19 @@ visibility: hidden;
   html{
     scroll-behavior: smooth;
   }
+  .tmbl{
+    width: auto;
+  }
+  .article-list img{
+    width: auto;
+  }
   .article-list h2 {
     margin-bottom: 25px;
     padding-top: 25px;
     font-size: 24px;
   }
 }
+
 
 .article-list .intro {
   font-size: 16px;
