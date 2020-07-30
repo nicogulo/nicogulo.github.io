@@ -172,6 +172,49 @@ scroll-behavior: smooth;
 
 
 /*articel*/
+.button{
+  text-align: center;
+}
+.tmbl {
+	position: relative;
+	margin: 0 15px;
+	width: 150px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+.tmbl a{
+  list-style: none;
+  color: black;
+}
+.tmbl a:hover{
+  list-style: none;
+}
+.tmbl:hover {
+  list-style: none;
+  background-color: #ddd;
+}
+
+.tmbl.active {
+  background-color: #666;
+  color: white;
+}
+
+#design{
+  visibility: hidden;
+}
+#web{
+  visibility: hidden;
+}
+
+#video{
+visibility: hidden;
+}
+
 .article-list {
   color: white;
 }
@@ -187,12 +230,14 @@ scroll-behavior: smooth;
   color: inherit;
 }
 
-.article-list img{
+.article-list img, .solo{
+  width: 400px;
   filter: grayscale(1);
   border-radius: 5px;
 }
 .article-list video{
   filter: grayscale(1);
+  width: 400px;
   border-radius: 5px;
 }
 .article-list img:hover{
