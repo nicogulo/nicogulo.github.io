@@ -5,7 +5,8 @@ html{
 	scroll-behavior: smooth;
 }
  body{
- 	scroll-behavior: smooth;
+	 scroll-behavior: smooth;
+	 font-family: Poppins;
 	font: 16px/28px 'Poppins'; 
 	background-color: grey;
 	color: #333;
